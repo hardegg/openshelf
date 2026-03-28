@@ -61,7 +61,7 @@ Then describe what you want to build. Claude Code has full context of the projec
 
 ## Self-Hosting
 
-Drop the `src/` folder on any static hosting (Vercel, Netlify, GitHub Pages, S3, etc.).
+Live at [openshelf.life](https://openshelf.life). Or self-host: drop the `src/` folder on any static hosting (Vercel, Netlify, GitHub Pages, S3, etc.).
 
 ## Contributing
 
