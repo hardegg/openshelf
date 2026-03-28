@@ -1,7 +1,17 @@
-# OpenShelf — AI Assistant Context
+# OpenShelf — AI Development Context
+
+> This is the primary context file for AI-native development. Claude Code reads this automatically at the start of every session.
 
 ## What is this project?
 OpenShelf is an open-source, browser-based 3D bookshelf designer. Users configure dimensions, rows, columns, and board positions to design custom bookshelves, then export specs for a carpenter.
+
+## Development Workflow
+This project is built AI-natively. To start developing:
+```bash
+cd openshelf
+claude                    # Claude Code reads this file automatically
+```
+Then describe what you want to build or fix. For agent role guidelines, see AGENTS.md.
 
 ## Tech Stack
 - Vanilla JavaScript (no framework, no build step)
@@ -26,13 +36,16 @@ All code is in `src/js/` as IIFE modules (no ES modules):
 - **dividerXs**: per-row array of vertical board X positions (null = computed from global layout)
 - **Stagger**: alternating shelf rows offset board positions by half a column width
 - **Merges**: regions where cells are combined (can be type "door" for cabinet doors)
-
-## Development
-```bash
-open src/index.html  # No build step needed
-```
+- **draggableMeshes**: each internal board is tagged with userData for raycasting-based interaction
 
 ## Conventions
 - ES5-compatible JavaScript
-- IIFE module pattern (var Module = (function() { ... })())
+- IIFE module pattern: `var Module = (function() { ... })()`
 - Coordinates in millimeters internally, scaled by 0.001 for Three.js scene
+- Keep files under 400 lines
+- No external dependencies beyond Three.js (CDN)
+
+## Running
+```bash
+open src/index.html  # No build step needed
+```
