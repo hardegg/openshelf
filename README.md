@@ -4,6 +4,16 @@
 
 > This project is built AI-natively with [Claude Code](https://claude.ai/claude-code). The entire codebase — architecture, implementation, debugging — is developed through human-AI collaboration. See [CLAUDE.md](CLAUDE.md) and [AGENTS.md](AGENTS.md) for how it works.
 
+## Story
+
+I recently bought a house, and the whole family is excited to move in. What thrills me most is finally having a dedicated study — with a floor-to-ceiling bookshelf covering an entire wall. I've dreamed of this for a long time.
+
+With a limited budget, we hired a modest design firm. The plan they delivered was pretty basic, and they cheerfully encouraged us to modify the design ourselves — Orz. So I rolled up my sleeves, only to discover that there's no good bookshelf design tool out there. They're either too simplistic or too complicated. At the same time, for an ordinary person like me, trying to balance function and aesthetics is genuinely hard.
+
+Thankfully, we live in the age of AI. After a few weeks of tinkering, Claude Code became my go-to tool. And by studying designs shared online and examining real bookshelves around me, I gradually arrived at a design I was happy with. The moment the bookshelf plan finally came together, I felt deeply satisfied.
+
+Looking back on the journey, I thought: it's 2026, AI agents are incredibly capable — ordinary people shouldn't still be struggling with something like designing a bookshelf. That's how OpenShelf was born. I hope everyone who wants a great bookshelf can use it to explore ideas, experiment, discuss with family and friends — and make life a little richer.
+
 ## Features
 
 - **Visual Designer** — drag boards to adjust cell widths and heights
