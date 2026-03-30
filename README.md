@@ -4,6 +4,8 @@
 
 > This project is built AI-natively with [Claude Code](https://claude.ai/claude-code). The entire codebase — architecture, implementation, debugging — is developed through human-AI collaboration. See [CLAUDE.md](CLAUDE.md) and [AGENTS.md](AGENTS.md) for how it works.
 
+![OpenShelf Demo](assets/demo.gif)
+
 ## Story
 
 I recently bought a house, and the whole family is excited to move in. What thrills me most is finally having a dedicated study — with a floor-to-ceiling bookshelf covering an entire wall. I've dreamed of this for a long time.
